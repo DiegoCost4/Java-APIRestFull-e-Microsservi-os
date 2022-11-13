@@ -12,11 +12,17 @@
 	<artifactId>primeiro-exemplo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>primeiro-exemplo</name>
-	<description>Projeto desenvolvido junto as aulas do curso Backend Completo com Java - APIRestFull e Microsservições</description>
+	<description>Projeto desenvolvido junto as aulas do curso Backend Completo com Java - APIRestFull e Microsserviços</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
